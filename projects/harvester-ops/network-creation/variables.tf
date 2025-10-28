@@ -1,7 +1,7 @@
 variable "ssh_username" {
   description = "Specifies the username used for SSH authentication (Harvester nodes). Default is 'sles'."
   type        = string
-  default     = "opensuse"
+  default     = "sles"
 }
 
 variable "cluster_network_count" {
